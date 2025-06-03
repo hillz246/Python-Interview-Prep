@@ -68,14 +68,14 @@ def print_items(a,b):
     for i in range(a):
         print(i)
     for j in range(b):
-        print(b)
+        print(j)
 
 # O(a*b)
 
-def print_items(a):
+def print_items(a,b):
     for i in range(a):
         for j in range(b):
-            print(a,b)
+            print(i,j)
 
 
 ## Big O of list 
